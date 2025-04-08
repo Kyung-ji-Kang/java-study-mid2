@@ -1,0 +1,24 @@
+package generic.ex3;
+import  generic.animal.Dog;
+
+import generic.animal.Dog;
+
+public class DogHospital {
+
+
+    private Dog animal ;
+
+    public void set(Dog anmial){
+        this.animal = animal;
+    }
+
+    public void checkup(){
+        System.out.println("동물 이름: "+ animal.getName());
+        System.out.println("동물 크키: "+ animal.getSize());
+        animal.sound();
+    }
+
+    public Dog bigger(Dog target){
+        return animal.getSize() > target.getSize() ? animal : target;
+    }
+}
