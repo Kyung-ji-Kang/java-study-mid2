@@ -8,7 +8,7 @@ public class DogHospital {
 
     private Dog animal ;
 
-    public void set(Dog anmial){
+    public void set(Dog animal){
         this.animal = animal;
     }
 
